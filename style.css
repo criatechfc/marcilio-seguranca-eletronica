@@ -86,17 +86,15 @@ header.scrolled {
 .logo-img {
   width: 90px;
   height: 90px;
-  border-radius: 50%;
   object-fit: contain;
   background: transparent;
-  padding: 10px;
-  box-shadow: 0 4px 15px rgba(255, 208, 0, 0.35);
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
   transition: all 0.3s ease;
   display: block;
   flex-shrink: 0;
 }
-
-
 .logo:hover .logo-img {
   transform: scale(1.05);
 }
